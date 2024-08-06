@@ -1,7 +1,7 @@
 /* Base styles */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #fc6a76; /* Base text color */
+  color: #ff7984; /* Base text color */
   font-family: 'Fira Code', monospace;
   padding: 1px;
   margin: 1px;
@@ -28,7 +28,7 @@ pre[class*="language-"]::before {
 }
 
 .token.punctuation {
-  color: #dbce14; /* Punctuation color */
+  color: #ebdf38; /* Punctuation color */
 }
 
 .token.property,
@@ -36,12 +36,12 @@ pre[class*="language-"]::before {
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #e06c75; /* Property, tag, constant, symbol, deleted color */
+  color: #f56571; /* Property, tag, constant, symbol, deleted color */
 }
 
 .token.boolean,
 .token.number {
-  color: #d19a66; /* Boolean and number color */
+  color: #f1ae6f; /* Boolean and number color */
 }
 
 .token.selector,
@@ -50,7 +50,7 @@ pre[class*="language-"]::before {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #98c379; /* Selector, attribute name, string, char, builtin, inserted color */
+  color: #a6f072; /* Selector, attribute name, string, char, builtin, inserted color */
 }
 
 .token.selector,
@@ -69,7 +69,7 @@ pre[class*="language-"]::before {
 .language-css .token.string,
 .style .token.string,
 .token.variable {
-  color: #56b6c2; /* Operator, entity, URL, CSS string, style string, variable color */
+  color: #7dd2dd; /* Operator, entity, URL, CSS string, style string, variable color */
   
 }
 
@@ -77,16 +77,16 @@ pre[class*="language-"]::before {
 .token.attr-value,
 .token.function,
 .token.class-name {
-  color: #61afef; /* At-rule, attribute value, function, class name color */
+  color: #76bdf8; /* At-rule, attribute value, function, class name color */
 }
 
 .token.keyword {
-  color: #c678dd; /* Keyword color */
+  color: #e38ffd; /* Keyword color */
 }
 
 .token.regex,
 .token.important {
-  color: #c678dd; /* Regex and important color */
+  color: #e38ffd; /* Regex and important color */
 }
 
 .token.important,

@@ -12,6 +12,8 @@
       const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
       camera.position.z = 4;
       camera.position.y=0.05;
+      camera.position.x=2;
+      
   
       const renderer = new THREE.WebGLRenderer({ alpha: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
@@ -24,6 +26,7 @@
         gltf.scene.traverse((child)=>{
             if (child.isMesh) {
             // child.material.color.set(0x00ff00); 
+            child.rotation.y=0.2
             }
         })        
         model=gltf.scene;
@@ -82,5 +85,5 @@
     }
   </style>
   
-  <div id="container" style="background-image:url('/bg_2.png');background-position:center;" bind:this={container}></div>
+  <div id="container" style="" bind:this={container}></div>
   

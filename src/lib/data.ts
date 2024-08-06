@@ -1,4 +1,5 @@
 interface data {
+    title:String;
     markdown:String;
     code:String;
     output:String;
@@ -7,39 +8,40 @@ interface data {
 
 export let Data : data [] =[
     {
+        title:"Make hello world app",
         markdown:"Hello this is Tanishq Dhote",
-        code:"export let tanishq = 'Tanishq Dhote'",
+        code:"String Tanishq = new String();",
         output:"",
         outputIMG:""
     },{
+        title:"",
         markdown:"",
         code:"",
         output:"",
         outputIMG:""
     },{
+        title:"",
         markdown:"",
         code:"",
         output:"",
         outputIMG:""
     },{
+        title:"",
         markdown:"",
         code:"",
         output:"",
         outputIMG:""
     },{
+        title:"",
         markdown:"",
         code:"",
         output:"",
         outputIMG:""
     },{
+        title:"",
         markdown:"",
         code:"",
         output:"",
         outputIMG:""
-    },{
-        markdown:"",
-        code:"",
-        output:"",
-        outputIMG:""
-    },
+    }
 ]
